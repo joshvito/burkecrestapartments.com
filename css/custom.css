@@ -1,0 +1,329 @@
+/* custom less */
+/*colors*/
+/*fonts*/
+/*-- Open Sans --*/
+@font-face {
+  font-family: 'open-regular';
+  src: url('../fonts/open-sans/OpenSans-Regular-webfont.eot');
+  src: url('../fonts/open-sans/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/open-sans/OpenSans-Regular-webfont.woff2') format('woff2'), url('../fonts/open-sans/OpenSans-Regular-webfont.woff') format('woff'), url('../fonts/open-sans/OpenSans-Regular-webfont.ttf') format('truetype'), url('../fonts/open-sans/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open-semi-bold';
+  src: url('../fonts/open-sans/OpenSans-Semibold-webfont.eot');
+  src: url('../fonts/open-sans/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/open-sans/OpenSans-Semibold-webfont.woff2') format('woff2'), url('../fonts/open-sans/OpenSans-Semibold-webfont.woff') format('woff'), url('../fonts/open-sans/OpenSans-Semibold-webfont.ttf') format('truetype'), url('../fonts/open-sans/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?301972');
+  src: url('../fonts/fontello.eot?301972#iefix') format('embedded-opentype'), url('../fonts/fontello.woff?301972') format('woff'), url('../fonts/fontello.ttf?301972') format('truetype'), url('../fonts/fontello.svg?301972#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?301972#fontello') format('svg');
+  }
+}
+*/
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .7em;
+  margin: 17px .7em;
+  text-align: center;
+  color: #ffffff;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+.icon-tint:before {
+  content: '\e800';
+}
+/* '' */
+.icon-temperature:before {
+  content: '\e801';
+}
+/* '' */
+.icon-compass:before {
+  content: '\e802';
+}
+/* '' */
+.icon-plug:before {
+  content: '\e803';
+}
+/* '' */
+.icon-guidedog:before {
+  content: '\e804';
+}
+/* '' */
+.icon-home:before {
+  content: '\e805';
+}
+/* '' */
+.icon-basket:before {
+  content: '\e806';
+}
+/* '' */
+.icon-school:before {
+  content: '\e807';
+}
+/* '' */
+.icon-t-shirt:before {
+  content: '\e808';
+}
+/* '' */
+.icon-monitor:before {
+  content: '\e809';
+}
+/* '' */
+.icon-users:before {
+  content: '\e80a';
+}
+/* '' */
+.icon-bus:before {
+  content: '\e80b';
+}
+/* '' */
+.open-regular {
+  font-family: "open-regular", Arial, sans-serif;
+}
+.open-light {
+  font-family: "open-light", Arial, sans-serif;
+}
+.open-semi-bold {
+  font-family: "open-semi-bold", Arial, sans-serif;
+}
+.lk-trans {
+  -webkit-transition: all 0.35s ease-in;
+  -moz-transition: all 0.35s ease-in;
+  transition: all 0.35s ease-in;
+}
+/*typography*/
+html,
+body {
+  font-family: Calibri, Arial, sans-serif;
+  font-size: 18px;
+}
+h1 {
+  font-family: "open-semi-bold", Arial, sans-serif;
+  font-size: 35px;
+  margin: 0 0 49px;
+  text-shadow: 1px 2px 3px #000000;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 28px;
+  margin: 0 0 14px;
+  font-family: "open-semi-bold", Arial, sans-serif;
+}
+h3 {
+  font-family: "open-semi-bold", Arial, sans-serif;
+  font-size: 21px;
+  margin: 0 0 14px;
+}
+h4 {
+  font-family: "open-semi-bold", Arial, sans-serif;
+  font-size: 21px;
+  margin: 0 0 14px;
+}
+p {
+  font-size: 1rem;
+  line-height: 24px;
+}
+a {
+  -webkit-transition: all 0.35s ease-in;
+  -moz-transition: all 0.35s ease-in;
+  transition: all 0.35s ease-in;
+}
+a:hover {
+  color: #85d2ff;
+}
+/*misc*/
+/*header*/
+.navbar {
+  min-height: auto;
+}
+.navbar-default {
+  background-color: none;
+  background: none;
+  border: none;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #04351f;
+  color: #ffffff;
+}
+.navbar-nav {
+  padding: 0;
+  border-bottom: 1px solid #04351f;
+  float: none;
+}
+.navbar-nav li a {
+  color: #ffffff;
+  text-transform: capitalize;
+  padding: 7px 14px;
+}
+.navbar-toggle {
+  background: #04351f;
+  border: none;
+}
+.navbar-toggle .icon-bar {
+  background-color: #ffffff !important;
+}
+.navbar-toggle:focus,
+.navbar-toggle:hover {
+  background: #04351f !important;
+}
+.call-button {
+  background: #387055;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 7px 14px;
+  text-decoration: none;
+}
+.call-button:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+address {
+  color: #000000;
+  padding-left: 17px;
+  line-height: 21px;
+}
+address a:first-child {
+  margin-top: 21px;
+  display: inline-block;
+}
+.sidebar li {
+  color: #ffffff;
+}
+.section {
+  padding-top: 28px;
+  padding-bottom: 77px;
+}
+.pad-head {
+  padding: 28px 0 0;
+}
+#background {
+  background: #04351f;
+  width: 100%;
+  min-height: 600px;
+  color: #ffffff;
+  padding-bottom: 77px;
+}
+.well {
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+}
+figcaption {
+  float: right;
+  padding: 20%;
+  text-align: left;
+}
+iframe {
+  width: 80%;
+  margin-top: 28px;
+}
+/*footer*/
+footer {
+  background: #000000;
+  color: #ffffff;
+  padding-top: 21px;
+}
+footer p {
+  font-size: 14px;
+}
+footer a {
+  color: #ffffff;
+  font-size: 14px;
+}
+/* Back To Top Button
+======================================*/
+#back-top {
+  position: fixed;
+  right: 30px;
+  bottom: 50px;
+  z-index: 9999;
+  right: 12px;
+}
+#back-top a {
+  opacity: 0.5;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#back-top .btn-primary {
+  background: #85d2ff;
+  padding: 0px;
+  font-size: 18px;
+  width: 36px;
+  height: 36px;
+}
+#back-top a:hover {
+  background: #387055;
+  opacity: 1;
+}
+.sitemap li a {
+  color: #ffffff;
+}
+/* start media queries */
+@media (min-width: 768px) {
+  .navbar-collapse {
+    padding: 0;
+  }
+  .header .col-sm-8 {
+    padding: 28px 0 0;
+  }
+  .call-button {
+    display: none;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  #background {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/burkecrest-street-view.JPG) no-repeat center / cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/burkecrest-street-view.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media (max-width: 990px) {
+  .well {
+    margin-top: 77px;
+  }
+  .well li {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,210 @@
+@charset "utf-8";
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color:#CCC;
+}
+h1 {
+	font-size: 18px;
+	font-weight: bold;
+	margin:12px;
+}
+h2 {
+	font-size: 16px;
+	font-weight: bold;
+	margin:12px;
+}
+h3, h4, h5, h6 {
+	font-size: 14px;
+	font-weight: bold;
+	margin:12px;
+}
+p {
+	font-size:12px;
+	margin:12px;
+}
+a:link {
+	color: #04351F;
+}
+a:visited {
+	color: #04351F;
+}
+a:hover {
+	color: #090;
+}
+a:active {
+	color: #04351F;
+}
+.nav {
+	font-size:11px;
+	color:#000;
+	margin:16px 12px 12px 12px;
+	text-align:center;
+}
+a.nav:link {
+	font-size:11px;
+	color:#FFF;
+	margin:0px;
+	text-decoration:none;
+}
+a.nav:visited {
+	font-size:11px;
+	color:#FFF;
+	margin:0px;
+	text-decoration:none;
+}
+a.nav:hover {
+	font-size:11px;
+	color:#FFF;
+	margin:0px;
+	text-decoration:underline;
+}
+a.nav:active {
+	font-size:11px;
+	color:#FFF;
+	margin:0px;
+	text-decoration:none;
+}
+.address {
+	font-size: 14px;
+	color:#000;
+	margin:48px 12px 12px 40px;
+}
+.phone1 {
+	font-size: 21px;
+	font-weight: bold;
+	margin:12px 12px 12px 40px;
+}
+.phone2 {
+	font-size: 21px;
+	font-weight: bold;
+}
+.email1 {
+	font-size: 14px;
+	color: #04351F;
+}
+a.email1:link {
+	font-size: 14px;
+	color: #04351F;
+	text-decoration:underline;
+	margin:12px 12px 12px 28px;
+}
+a.email1:active {
+	font-size: 14px;
+	color: #04351F;
+	text-decoration:underline;
+	margin:12px 12px 12px 28px;
+}
+a.email1:visited {
+	font-size: 14px;
+	color: #04351F;
+	text-decoration:underline;
+	margin:12px 12px 12px 28px;
+}
+a.email1:hover {
+	font-size: 14px;
+	color: #04351F;
+	text-decoration:underline;
+	margin:12px 12px 12px 28px;
+}
+.email2 {
+	font-size: 14px;
+	color: #04351F;
+}
+a.email2:link {
+	font-size: 14px;
+	color: #04351F;
+	text-decoration:underline;
+}
+a.email2:active {
+	font-size: 14px;
+	color: #04351F;
+	text-decoration:underline;
+}
+a.email2:visited {
+	font-size: 14px;
+	color: #04351F;
+	text-decoration:underline;
+}
+a.email2:hover {
+	font-size: 14px;
+	color: #04351F;
+	text-decoration:underline;
+}
+.homeContentBox {
+	float:left;
+	position:relative;
+	width:320px;
+	height:424px;
+	margin:0px;
+}
+.homeText {
+	font-size:12px;
+	margin:12px 12px 12px 30px;
+}
+.homeTextRed {
+	font-size:12px;
+	margin:12px 12px 12px 30px;
+	color: #800517;
+}
+.homeH1Margin {
+	margin:12px 12px 12px 30px;	
+}
+.footer {
+	font-size: 11px;
+	color: #FFFFFF;
+	margin:16px 20px 12px 20px;
+}
+a.footer:link {
+	font-size: 11px;
+	color: #FFFFFF;
+	margin:0px;
+	text-decoration:none;
+}
+a.footer:visited {
+	font-size: 11px;
+	color: #FFFFFF;
+	margin:0px;
+	text-decoration:none;
+}
+a.footer:hover {
+	font-size: 11px;
+	color: #FFFFFF;
+	margin:0px;
+	text-decoration:underline;
+}
+a.footer:active {
+	font-size: 11px;
+	color: #FFFFFF;
+	margin:0px;
+	text-decoration:none;
+}
+.footer2 {
+	font-size: 11px;
+	color: #FFFFFF;
+	margin:8px 12px 8px 12px;
+}
+a.footer2:link {
+	font-size: 11px;
+	color: #FFFFFF;
+	margin:0px;
+	text-decoration:none;
+}
+a.footer2:visited {
+	font-size: 11px;
+	color: #FFFFFF;
+	margin:0px;
+	text-decoration:none;
+}
+a.footer2:hover {
+	font-size: 11px;
+	color: #FFFFFF;
+	margin:0px;
+	text-decoration:underline;
+}
+a.footer2:active {
+	font-size: 11px;
+	color: #FFFFFF;
+	margin:0px;
+	text-decoration:none;
+}

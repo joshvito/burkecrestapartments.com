@@ -1,0 +1,147 @@
+@charset "utf-8";
+#outerWrapper {
+	float:none;
+	position:relative;
+	margin: 0 auto;
+	width:960px;
+	height:auto; 
+	/* min-height:90%; */
+	background-color:#FFF;
+	border-style:solid;
+	border-width:1px;
+	border-color:#000;
+}
+#pageLiner {
+	float:none;
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height: 100%;
+	min-height: 100%;
+	background-color:#FFF;
+}
+#headerHome {
+	float:none;
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:250px;
+	border-bottom-style:solid;
+	border-bottom-width:20px;
+	border-bottom-color:#04351F;
+}
+#headerHomeLeft {
+	float:left;
+	position:relative;
+	margin:0px;
+	width:400px;
+	height:250px;
+}
+#headerHomeRight {
+	float:left;
+	position:relative;
+	margin:0px;
+	width:560px;
+	height:250px;
+}
+#nav {
+	float:left;
+	position:relative;
+	margin:0px;
+	width:400px;
+	height:45px;
+	background-color:#04351F;
+}
+#headerHomeLeftBottom {
+	float:left;
+	position:relative;
+	margin:0px;
+	width:400px;
+	height:205px;
+}
+#bodyHome {
+	float:none;
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:424px;
+	background:url(../images/home_bkgd.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+}
+#innerPageLeft {
+	float:left;
+	position:relative;
+	margin:0px;
+	width:400px;
+	height:auto;
+}
+#innerPageRight {
+	float:left;
+	position:relative;
+	margin:0px;
+	width:559px;
+	min-height:694px;
+	height:auto;
+	background-color:#DDE1CF;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-left-color:#000;
+}
+#innerLeft {
+	float:left;
+	position:relative;
+	margin:0px;
+	width:400px;
+	height:auto;
+}
+#innerLeftBottomPic {
+	float:left;
+	position:relative;
+	width:400px;
+	height:189px;
+	margin:50px 0px 0px 0px;
+	background:url(../images/footer_img.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+}
+#innerLeftBottom {
+	float:left;
+	position:relative;
+	margin:0px;
+	width:400px;
+	height:45px;
+	background-color:#04351F;
+}
+#footerHome {
+	float:none;
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:45px;
+	background-color:#04351F;
+}
+#footerLeft {
+	float:left;
+	position:relative;
+	margin:0px;
+	width:670px;
+	height:45px;
+	background-color:#04351F;
+}
+#footerRight {
+	float:left;
+	position:relative;
+	margin:0px;
+	width:290px;
+	height:45px;
+	background-color:#04351F;
+}
+#footerInner {
+	float:none;
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:auto;
+	background-color:#CCC;
+}
