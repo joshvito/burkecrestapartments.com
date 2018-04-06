@@ -42,7 +42,7 @@
 	<h2>Recently Updated: $690.00 per month, includes heat and hot water!</h2><br><br>
  -->
 
-                  <h2>Burke Crest Apartments offers spacious one, one & one half, and two bedroom apartments for rent.</h1>
+                  <h2>Burke Crest Apartments offers spacious one, one &amp; one half, and two bedroom apartments for rent.</h1>
                   <h2>Located in Spencerport New York, Burke Crest Apartments is a five building complex back-set on an 8 acre country property.</h2>
 
 <!--

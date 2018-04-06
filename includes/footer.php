@@ -10,7 +10,7 @@
             </div>
             <div class="col-sm-8 text-right">
                     <p>Copyright © <?php echo date("Y"); ?> Burke Crest Apartments<br />
-            <a href="http://www.mustbeonline.net" target="_blank" class="footer2">Website Development</a> by MustBeOnline.net</p>
+            Website Development by MustBeOnline.net</p>
             </div>
         </div>
     </div>
