@@ -1,6 +1,3 @@
-
-
-
 <!-- starts header -->
 <div class="header">
         <div class="container">
@@ -26,7 +23,7 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                       <ul class="nav navbar-nav">
                         <li class="<?php echo( $page_id == "home" ? "active" : ""); ?>"><a href="index.php">home</a></li>
-                        <li class="<?php echo( $page_id == "floorplans" ? "active" : ""); ?>"><a href="floorplans.php" >floor plans</a></li>
+                        <li class="<?php echo( $page_id == "floorplans" ? "active" : ""); ?>"><a href="floorplans.php" >floor plans &amp; rates</a></li>
                         <li class="<?php echo( $page_id == "property" ? "active" : "") ?>"><a href="property.php">our property</a></li>
                         <li class="<?php echo( $page_id == "directions" ? "active" : "") ?>"><a href="directions.php">driving directions</a></li>
                       </ul>
