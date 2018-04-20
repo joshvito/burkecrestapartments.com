@@ -40,7 +40,7 @@
                 <img src="images/1_bedroom_floorplan.jpg" alt="1 Bedroom Floor Plan" class="img-responsive center-block" />
               </div>
               <div class="media-body">
-                  <h4 class="media-heading">1 Bedroom - 2018 Rent Rate: $685</h4>
+                  <h4 class="media-heading">1 Bedroom - 2018 Rent Rate: $685.00/mo</h4>
                 <p>1 Bath <br /> Approximately 700 square feet</p>
               </div>
           </div>
@@ -50,7 +50,7 @@
                 <img src="images/1.5_bedroom_floorplan.jpg" alt="One and One half Bedroom Floor Plan" class="img-responsive center-block">
               </div>
               <div class="media-body">
-                  <h4 class="media-heading">1 &amp; 1/2 Bedroom - 2018 Rent Rate: $700</h4>
+                  <h4 class="media-heading">1 &amp; 1/2 Bedroom - 2018 Rent Rate: $700.00/mo</h4>
                 <p>1 Bath <br /> Approximately 760 square feet</p>
               </div>
           </div>
@@ -60,7 +60,7 @@
                 <img src="images/2_bedroom_floorplan.jpg" alt="2 Bedroom Floor Plan"  class="img-responsive center-block">
               </div>
               <div class="media-body">
-                  <h4 class="media-heading">2 Bedroom - 2018 Rent Rate: $725</h4>
+                  <h4 class="media-heading">2 Bedroom - 2018 Rent Rate: $725.00/mo</h4>
                 <p>1 Bath <br /> Approximately 820 square feet</p>
               </div>
           </div>
